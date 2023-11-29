@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256659028687",
+    "project_id": "registrotransacoes",
+    "storage_bucket": "registrotransacoes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256659028687:android:ed7116b79b4a8ff989d5ba",
+        "android_client_info": {
+          "package_name": "com.example.alpha2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQkk3unDNlK8gRIxpkAmDtAPIggizMzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
