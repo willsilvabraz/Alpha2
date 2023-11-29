@@ -15,13 +15,16 @@ public class Programa implements Serializable {
     private static Programa instacia;
     private List<Caixa> caixa;
     private Estoque estoque;
+    private List<Funcionario> funcionarios;
 
     public Programa(){
+        funcionarios = new ArrayList<>();
         caixa = new ArrayList<>();
         estoque = new Estoque();
     }
 
     public void abrirCaixa(double valor){
+
         Caixa temp = new Caixa(valor);
     }
 

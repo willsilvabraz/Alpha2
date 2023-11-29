@@ -16,6 +16,13 @@ public class Estoque implements Serializable {
         produto.add(temp);
     }
 
+    public void removerProduto(String nome){
+        if(procurarPorNome(nome) != null){
+            this.produto.remove(procurarPorNome(nome));
+        }
+    }
+
+
     public Produto procurarPorNome(String nome){
         for (Produto i : produto){
             if(i.getNome().equals(nome)){

@@ -20,10 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private  Programa programa = new Programa();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ref.getDatabase().toString();
-
-        DatabaseReference user = ref.child("usuarios");
-        user.child("003");
 
         Bundle dados = getIntent().getExtras();
         if (dados != null) {
